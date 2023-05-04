@@ -41,4 +41,4 @@ $(document).ready(function () {
     $(`#${i}`).children('textarea').val(localStorage.getItem(i));
   }
 });
-// In this way, we retrieve the key/value pairs established above and the data persists, even after the page is reloaded by the user. The user-provided 'val'ue pops back into the 'textarea's, which which have all been assigned 'id's that correspond with the 'time' that they represent. And JQuery reassigns that content to the appropriate 'textarea' based on the value that it finds at 'i', each time the page reloads.
+// In this way, we retrieve the key/value pairs established above and the data persists, even after the page is reloaded by the user. The user-provided 'val'ue pops back into the 'textarea's, which have all been assigned 'id's that correspond with the 'time' that they represent. And JQuery reassigns that content to the appropriate 'textarea' based on the value that it finds at 'i', each time the page reloads.
